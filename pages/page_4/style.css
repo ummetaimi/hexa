@@ -1,0 +1,126 @@
+*{
+    text-decoration: none !important;
+}.ban{
+    background-image: url(../page_4/images/bg.png);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    color: white;
+    font-weight:  bold;
+}
+.navbar-nav li{
+    color: white;
+    font-weight: 600;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+}
+.navbar-collapse ul li{
+    margin-left: 20px !important;
+}
+.navbar-collapse ul li button{
+    background-color: white;
+    color: #20445F;
+    font-weight: 500;
+    border: none;
+}
+
+
+/* //////////////////////////////////////////// */
+.brief-con{
+    background-color: #EFF5F9;
+    border-radius: 20px;
+    height: 95vh;
+}
+/* .course-con{
+    background-color: #EFF5F9;
+    border-radius: 20px;
+    width: 500px;
+    height: 95vh;
+    margin-top: 80px;
+} */
+.course-card{
+    width: 450px;
+    height: 90vh;
+    margin-top:  50px;
+}
+.course-card img{
+    width: 100%;
+    height: 50vh;
+    background-color: #AAAAAA;
+    border-radius: 20px;
+}
+.course-card h1{
+    color: #012949;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 26px !important;
+}
+
+
+.course-card >div h6{
+    background-color: #EBB5B5;
+    color: #012949;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 24px;
+    margin-right: 50px;
+    margin-left: -25px;
+}
+
+
+/* ..........................  */
+.brief-con{
+    margin-top: -150px;
+}
+.brief-text h5{
+    color: #2189EA;
+    font-size: 30px;
+}
+.brief-text .h5{
+    font-weight: 800;
+}
+.brief-numeric h5{
+    color: #012949;
+}
+.brief-text button{
+    border: 1px solid #2189EA;
+    color: #2189EA;
+    background-color: #EFF5F9 !important;
+    padding: 10px 180px;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+
+/* media queries     ===================== */
+
+@media (max-width: 991.98px) { 
+
+}
+@media (max-width: 767.98px) { 
+    .brief-con{
+        padding-bottom: 100px !important;
+    }
+ }
+@media (max-width: 575.98px) { 
+    .brief-text h5{
+        font-size: 22px;
+    }
+    .brief-text button{
+        padding: 5px 50px;
+        font-size: 16px;
+    }
+    .brief-text > div h5{
+        font-size: 16px;
+    }
+    .course-card >div h6{
+        padding: 7px 20px;
+        font-size: 24px;
+        font-size: 16px;
+    }
+}

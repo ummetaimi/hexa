@@ -1,0 +1,353 @@
+*{
+    text-decoration: none !important;
+}
+.ban{
+    background-image: url(..//page_1/images/bg.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    color: white;
+    font-weight:  bold;
+}
+.navbar-nav li{
+    color: white;
+    font-weight: 600;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+}
+.navbar-collapse ul li{
+    margin-left: 30px !important;
+}
+.navbar-collapse ul li button{
+    background-color: white;
+    color: #20445F;
+    font-weight: 700;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 0px;
+    letter-spacing: 1px;
+}
+/* /////////////////////////////////// */
+.ban-text{
+    color: white;
+    width: 90%;
+    margin-top: 150px;
+}
+.ban-text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.ban-text p{
+    font-size: 20px;
+}
+.ban-btn button{
+    padding: 12px 35px !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+.ban-btn button:first-child{
+    background-color: #2189EA !important;
+    border: none;
+    margin-right: 10px !important;
+}
+.ban-btn button:last-child{
+    /* background-color: white; */
+    border: 1px solid #2189EA;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 12px 35px !important;
+    margin-left: 10px;
+}
+
+/* ///////////////////////////// */
+.choose{
+    height: 110vh;
+}
+
+.choose-text{
+    padding-left: 100px 
+}
+.choose-text h3{
+    color: #012949;
+    font-size: 28px;
+    font-weight: 650;
+}
+.choose-text p{
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.statistics img{
+    background-color: #DFE6F0;
+    border-radius: 50px;
+    padding: 9px;
+}
+.statistics h5{
+    color: #2189EA;
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.btns button{
+    font-size: 22px;
+    padding: 10px 40px;
+
+}
+.btns button:first-child{
+    background-color: #DFE6F0;
+    margin-right: 50px;
+    color: #012949;
+    border: none;
+    font-weight: 600;
+}
+.btns button:last-child{
+    background-color: #012949;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+/* .............................. */
+.title_offer h1{
+    color: #012949;
+    font-weight: 700;
+    font-size: 50px;
+}
+.title_offer p{
+    font-size: 20px;
+    width: 80%;
+}
+.title_offer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-text h3{
+    font-size: 33px;
+    color: #012949;
+    font-weight: 700;
+}
+.about-text1{
+    margin-left: 100px;
+}
+.about-text2{
+    margin-right: 100px;
+}
+.about-text p{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.about-img img{
+    width: 100%;
+}
+.about-text button{
+    background-color: #012949;
+    padding: 10px 30px;
+    border-radius: 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+
+/* ........................... */
+.numeric-con{
+    background-image: url(../page_1/images/Rectangle\ 174.png);
+    width: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    height: 250px;
+
+       /* background-image: linear-gradient(url(../page_1/images/Rectangle\ 174.png), to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+}
+.numeric h1{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 50px;
+}
+.numeric p{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+/* ................................/ */
+.student-card{
+    border-radius: 5px;
+    box-shadow: -1px -1px 10px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -1px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 10px -3px rgba(0,0,0,0.75);
+    width: 250px;
+    padding-top: 10px;
+    padding-left: 25px;
+
+}
+.student-card h5{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+.stu-cards img{
+    width: 200px !important;
+    border-radius: 10px 10px 0px 0px;
+}
+.student-card p{
+    color: #2189EA;
+}
+
+.btn-center button{
+    border: none;
+    border-radius: 0px;
+    padding: 14px 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* ................................................. */
+
+.app-text h5{
+    color: #012949;
+    font-weight: 650;
+}
+.app-text h1{
+    color: #012949;
+    font-weight: 800;
+    font-size: 34px;
+}
+.btn-center button{
+    border: none;
+    border-radius: 0px;
+    padding: 14px 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+/* ................................ */
+
+
+footer{
+    background-color: #012949;
+    color: #FFFFFF;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+footer h5{
+    color: #1F83E0;
+}
+.f-icon i{
+    color: #8AA7BE;
+    font-size: 35px;
+    margin-right: 20px}
+.copyright{
+    width: 100% !important;
+}
+.copyright p{
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+
+/* media queries ////////////////// */
+@media (max-width: 991.98px) { 
+    .ban{
+        height: 100vh;
+    }
+    .ban-text{
+        margin-top: 0px;
+    }
+    .ban-text h1{
+        font-size: 26px;
+    }
+    .ban-text p{
+        font-size: 16px;
+    }
+    .choose{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ban-btn button{
+        padding: 7px 15px !important;
+        font-size: 16px;
+    }
+    .ban-btn button:last-child{
+        padding: 7px 15px !important;
+    }
+    .choose{
+        margin-top: 50px;
+        margin-bottom: 1000px;
+    }
+    .about-text1{
+        margin-left: 20px;
+    }
+    .about-text2{
+        margin-right: 20px;
+    }
+ }
+@media (max-width: 767.98px) { 
+    footer{
+        height: 1000px;
+    }
+ }
+@media (max-width: 575.98px) { 
+    .ban-text h1{
+        font-size: 24px;
+    }
+    .ban-text p{
+        font-size: 16px;
+    }
+    .choose-text{
+        margin-left: -50px !important;
+    }
+    .choose-text h3{
+        font-size: 22px;
+    }
+    .choose-text p{
+        font-size: 16px;
+    }
+    
+    .statistics img{
+        padding: 5px;
+        width: 30px;
+    }
+    .statistics h5{
+        font-size: 16px;
+    }
+    
+    .btns button{
+        font-size: 14px;
+        padding: 5px 16px;
+    
+    }
+    .choose-img img{
+        margin-left: -50px !important;
+    }
+    .choose{
+        height: 100vh;
+    }
+    .offer{
+        margin-top: -700px;
+    }
+    .title_offer h1{
+        font-size: 30px;
+    }
+    .title_offer p{
+        font-size: 16px;
+    }
+    footer{
+        height: 220vh;
+    }
+}

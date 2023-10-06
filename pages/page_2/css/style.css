@@ -1,0 +1,221 @@
+*{
+    text-decoration: none !important;
+}
+.ban{
+    background-image: url(../images/bg.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    color: white;
+    font-weight:  bold;
+}
+.navbar-nav li{
+    color: white;
+    font-weight: 600;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+}
+.navbar-collapse ul li{
+    margin-left: 30px !important;
+}
+.navbar-collapse ul li button{
+    background-color: white;
+    color: #20445F;
+    font-weight: 700;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 0px;
+    letter-spacing: 1px;
+}
+/* /////////////////////////////////// */
+.ban-text{
+    color: white;
+    width: 90%;
+    margin-top: 150px;
+}
+.ban-text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.ban-text p{
+    font-size: 20px;
+}
+.ban-btn button{
+    padding: 12px 35px !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+.ban-btn button:first-child{
+    background-color: #2189EA !important;
+    border: none;
+    margin-right: 10px !important;
+}
+.ban-btn button:last-child{
+    /* background-color: white; */
+    border: 1px solid #2189EA;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 12px 35px !important;
+    margin-left: 10px;
+}
+/* ................................... */
+.heading h1{
+    color: #012949;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.courses >div h5{
+    color: #012949;
+    background-color: #E6EAED;
+    padding: 13px 25px;
+    border-radius: 25px;
+    font-weight: 700;
+    margin: 0px 10px;
+}
+.sub-course h5{
+    color: white !important;
+    background-color: #1F83E0 !important;
+    padding: 13px 25px;
+    border-radius: 25px;
+    font-weight: 700;
+}
+.course-con{
+    background-color: #E6EAED;
+    border-radius: 20px;
+    width: 500px;
+    height: 95vh;
+    margin-top: 80px;
+}
+.course-card{
+    width: 450px;
+    height: 90vh;
+    margin-top:  20px;
+}
+.course-card img{
+    width: 100%;
+    
+}
+.course-card h1{
+    color: #012949;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+.course-card >div h6{
+    background-color: #EBB5B5;
+    color: #012949;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 24px;
+    margin-right: 50px;
+    margin-left: -25px;
+}
+
+/* .........................................................................../ */
+footer{
+    background-color: #012949;
+    color: #FFFFFF;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+footer h5{
+    color: #1F83E0;
+}
+.f-icon i{
+    color: #8AA7BE;
+    font-size: 35px;
+    margin-right: 20px}
+.copyright{
+    width: 100% !important;
+}
+.copyright p{
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+
+/* media queries     ===================== */
+
+@media (max-width: 991.98px) { 
+    .ban-text{
+        margin-top: 70px;
+    }
+    .ban-text h1{
+        font-size: 30px;
+    }
+    .ban-text p{
+        font-size: 16px;
+    }
+    .ban-btn button{
+        padding: 5px 25px !important;
+        font-size: 14px;
+    }
+    .heading h1{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .course-card h1{
+        font-size: 20px;
+    }
+    .coursebutton h6{
+        font-size: 14px !important;
+        padding: 7px 15px !important;
+    }
+    .course-card{
+        margin-left: 30px;
+    }
+    .course-card img{
+        height: 350px ;
+        width: 300px;
+    }
+    .course-con{
+        width: 350px;
+        height: 530px;
+    }
+    footer{
+        height: 150vh;
+    }
+}
+@media (max-width: 767.98px) { 
+    footer{
+        height: 250vh;
+    }
+ }
+@media (max-width: 575.98px) { 
+    .ban-text{
+        margin-top: 30px;
+    }
+    .ban-text h1{
+        font-size: 20px;
+    }
+    .ban-text p{
+        font-size: 14px;
+    }
+    .ban-btn button{
+        padding: 5px 15px !important;
+        font-size: 14px;
+    }
+    .course-con{
+        width: 100%;
+    }
+    .course-card{
+        margin-left: 5px;
+    }
+    .course-card img{
+        width: 100%;
+    }
+}
